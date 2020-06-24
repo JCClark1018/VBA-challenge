@@ -31,10 +31,7 @@ Sub TickerChange():
         j = 2
         OValue = ws.Cells(2, 3)
             'MsgBox (OValue) Good
-            If OValue = 0 Then
-                OValue = ws.Cells(2 + 1, 3)
-            End If
-            
+                       
         Ticker = ws.Cells(2, 1)
             'MsgBox (Ticker) Good
             
